@@ -1,0 +1,75 @@
+body {
+  background-image:url("bg.jpg");
+  display: flex;
+  text-shadow: 2px 2px 2px black;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+ 
+}
+
+h1 {
+	color: orangered;
+	text-align: centre; 
+	font-size: 75px;
+	margin-bottom: 300px;
+}
+	
+h2 {
+  color: White;
+  text-align: bottom; 
+	font-size: 38px;
+	margin-bottom: 300px;
+}
+	
+
+
+.digit {
+	font-size: 150px;
+	color: gold;
+}
+
+.txt {
+	font-size: 40px;
+	color: orangered;
+}
+
+#buttons {
+	margin-top: 20px;
+}
+
+.btn {
+	width: 100px;
+	padding: 20px 25px;
+	margin: 0px 20px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 4px;
+	border-top-left-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.5s;
+	color: black;
+	font-weight: 900;
+}
+
+#start {
+	background-color: orangered;
+}
+
+#stop {
+	background-color: white;
+}
+
+#reset {
+	background-color: darkgreen;
+}
